@@ -6,7 +6,7 @@ public class DB {
     public static Connection connect() {
         try {
             var jdbcUrl = "jdbc:mysql://localhost:3306/db_fatec";
-            var user = "root"; //usei o xampp
+            var user = "root";
             var password = "";
 
             return DriverManager.getConnection(jdbcUrl, user, password);
